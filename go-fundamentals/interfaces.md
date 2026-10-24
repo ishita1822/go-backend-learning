@@ -1,4 +1,4 @@
-# Lesson 1: Interfaces in Go
+# Interfaces in Go
 
 ## Core idea
 

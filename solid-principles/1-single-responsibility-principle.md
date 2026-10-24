@@ -1,4 +1,4 @@
-# Lesson 4: Single Responsibility Principle (SRP)
+# Single Responsibility Principle (SRP)
 
 ## Definition
 

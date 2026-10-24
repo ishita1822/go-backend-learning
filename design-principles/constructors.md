@@ -1,4 +1,4 @@
-# Lesson 3: Constructor Functions in Go
+# Constructor Functions in Go
 
 Go commonly uses `New...` functions to initialise structs and provide dependencies. They are ordinary functions, not special language constructors.
 

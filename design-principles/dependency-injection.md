@@ -1,4 +1,4 @@
-# Lesson 2: Dependency Injection (DI)
+# Dependency Injection (DI)
 
 ## The problem: tightly coupled code
 
