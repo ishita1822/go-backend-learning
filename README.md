@@ -1,27 +1,58 @@
 # Go Backend Learning
 
-A practical learning repository for Go backend engineering, LLD, design patterns, and system design.
+A structured learning repository for Go backend engineering, clean code, SOLID principles, Low-Level Design (LLD), System Design, and DSA.
 
-## Topics
+## Learning Roadmap
 
-- Go fundamentals and concurrency
-- Low-Level Design (LLD)
-- Design patterns in Go
-- Backend architecture and system design
-- DSA practice in Go
+### 1. Go Fundamentals
+Core Go concepts, interfaces, error handling, concurrency, and best practices.
 
-## Learning approach
+[Open Go Fundamentals](./go-fundamentals/README.md)
 
-Each topic includes:
-- A plain-English explanation
-- A small Go example
-- Where it is useful in backend services
-- Practice questions
+### 2. OOP Concepts
+Object-oriented programming concepts and how they translate to Go.
 
-## Current focus: Go LLD
+[Open OOP](./oop/README.md)
 
-See [`backend-patterns/go-lld/README.md`](backend-patterns/go-lld/README.md).
+### 3. SOLID Principles
+Learn the five SOLID principles with practical backend examples.
 
-## Run examples
+[Open SOLID Principles](./solid-principles/README.md)
 
-Examples may be snippets rather than standalone programs. For runnable examples, create a Go file and add the required `package main` and imports.
+### 4. Design Principles
+Dependency Injection, constructor functions, separation of concerns, and maintainable code.
+
+[Open Design Principles](./design-principles/README.md)
+
+### 5. Design Patterns
+Reusable solutions to common software design problems, with Go examples.
+
+[Open Design Patterns](./design-patterns/README.md)
+
+### 6. Low-Level Design (LLD)
+Practice designing backend components and services, including class and interface relationships.
+
+[Open LLD](./low-level-design/README.md)
+
+### 7. System Design
+Study scalable architectures, databases, caching, messaging, distributed systems, and reliability.
+
+[Open System Design](./system-design/README.md)
+
+### 8. Data Structures and Algorithms (DSA)
+Pattern-based problem solving, brute-force approaches, optimization, and complexity analysis.
+
+[Open DSA](./dsa/README.md)
+
+## Learning Method
+
+Each topic will include:
+- A simple explanation
+- Go code examples where relevant
+- Practical backend use cases
+- Time and space complexity when applicable
+- Practice questions and assessments
+
+## Goal
+
+Build strong Go backend engineering, LLD, System Design, and interview problem-solving skills through consistent, hands-on practice.
