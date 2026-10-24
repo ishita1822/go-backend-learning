@@ -16,7 +16,7 @@ violate the behavior expected by the interface's consumers.
 
 ## Example in Go
 
-\```go
+```go
 type PaymentMethod interface {
     Pay(amount float64) error
 }
@@ -28,7 +28,7 @@ func (FakePayment) Pay(amount float64) error {
     // No payment is actually processed.
     return nil
 }
-\```
+```
 
 The implementation has the required method signature, so Go
 accepts it.

@@ -13,7 +13,7 @@ Do not force a component to depend on methods it does not need.
 
 Consider a repository with several operations:
 
-\```go
+```go
 type User struct {
     ID   string
     Name string
@@ -24,14 +24,14 @@ type UserRepository interface {
     CreateUser(user User) error
     DeleteUser(id string) error
 }
-\```
+```
 
 A profile service may only need to retrieve users, while a
 cleanup job only needs to delete users.
 
 We can define smaller interfaces based on those capabilities:
 
-\```go
+```go
 type UserReader interface {
     GetUser(id string) (User, error)
 }
@@ -39,7 +39,7 @@ type UserReader interface {
 type UserDeleter interface {
     DeleteUser(id string) error
 }
-\```
+```
 
 Now the profile service can depend on UserReader, while the
 cleanup job can depend on UserDeleter.

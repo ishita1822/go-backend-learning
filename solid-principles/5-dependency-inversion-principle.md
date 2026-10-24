@@ -16,7 +16,7 @@ implementation, such as PostgreSQL or DynamoDB.
 
 ## Example in Go
 
-\```go
+```go
 type OrderRepository interface {
     SaveOrder(order string) error
 }
@@ -34,16 +34,16 @@ func NewOrderService(repo OrderRepository) *OrderService {
 func (s *OrderService) CreateOrder(order string) error {
     return s.repo.SaveOrder(order)
 }
-\```
+```
 
 OrderService depends on the OrderRepository interface instead
 of a concrete PostgreSQL repository.
 
 Any compatible repository can be provided:
 
-\```go
+```go
 service := NewOrderService(&PostgresRepository{})
-\```
+```
 
 A DynamoDB repository could also be provided if it implements
 the required SaveOrder method with the matching signature.

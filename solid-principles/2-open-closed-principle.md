@@ -12,7 +12,7 @@ We should be able to add new behavior without repeatedly changing stable, existi
 
 Imagine a checkout system supports different discount policies.
 
-\```go
+```go
 type DiscountPolicy interface {
     Calculate(price float64) float64
 }
@@ -32,7 +32,7 @@ func (PremiumDiscount) Calculate(price float64) float64 {
 func FinalPrice(price float64, policy DiscountPolicy) float64 {
     return price - policy.Calculate(price)
 }
-\```
+```
 
 A new discount policy can be added by implementing
 DiscountPolicy without changing FinalPrice.
